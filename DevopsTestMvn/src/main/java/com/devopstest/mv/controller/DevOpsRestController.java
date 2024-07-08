@@ -8,7 +8,7 @@ public class DevOpsRestController {
 	
 	@GetMapping("/test1")
 	public String test1() {
-		System.out.println("In Test1");
+		System.out.println("In Test1 To test GISCM");
 		return "test1";
 	}
 	
